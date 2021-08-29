@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0 3% 0;
+    
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 3% 0;
+    background-color:white;
+    font-family: serif;
+}
+.wholehead{
+    /*border: 1px solid black;*/
+    margin: 0 400px 0; 
+    margin-top: 30px; 
+    background-color:lemonchiffon ;
+}
+.headpic{
+    position: relative;
+    left: 6%;
+    top: 60%;
+    padding-top: 20px;
+    height: 300px;
+    /*border: 1px solid black;*/
+    border-top-left-radius: 22% 75%;
+    border-bottom-left-radius: 22% 75%;
+    border-top-right-radius: 22% 75%;
+    border-bottom-right-radius: 22% 75%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.textcenter{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.quote{
+    padding-bottom: 30px;
+    padding-right: 50px;
+    text-align: center; 
+    /*border-bottom: 1px solid black;*/
+}
+.content{
+    margin-top: 40px;
+    font-size: 150%;
+}
+.content h4{
+    font-size: 200%;
+    padding: 20px 0px;
+    padding-left: 300px;
+}
+.content img{
+    height: 250px;
+    display: inline;
+    float: right;
+}
+.para{
+    border: 1px solid black;
+    width: 95%;
+    overflow: auto;
+    padding: 2%;
+    border-top-left-radius: 8% 50%;
+    border-bottom-left-radius: 8% 50%;
+    border-top-right-radius: 18% 75%;
+    border-bottom-right-radius: 18% 75%;
+}
